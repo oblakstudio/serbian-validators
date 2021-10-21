@@ -16,8 +16,8 @@
     ["@semantic-release/github", {
       "assets": [{
         "path": "build/release.zip",
-        "name": "path-sort-extra-${nextRelease.version}.zip",
-        "label": "Path Sort v${nextRelease.version}"
+        "name": "serbian-validators-${nextRelease.version}.zip",
+        "label": "Serbian Validators v${nextRelease.version}"
       }]
     }],
     "@semantic-release/npm"
