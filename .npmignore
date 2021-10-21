@@ -1,0 +1,11 @@
+.github
+build
+coverage
+lib
+.releaserc
+.editorconfig
+.eslintrc.js
+.prettierrc
+LICENSE
+tsconfig.json
+tsconfig.build.json
