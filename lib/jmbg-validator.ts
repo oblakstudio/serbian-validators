@@ -21,5 +21,5 @@ export function validJMBG(jmbg: number | string): boolean {
     return true;
   }
 
-  return parseInt(jmbg[12], 10) === mod11(jmbg.substring(0, 12));
+  return jmbg.length == 13 && parseInt(jmbg[12], 10) === mod11(jmbg.substring(0, 12));
 }

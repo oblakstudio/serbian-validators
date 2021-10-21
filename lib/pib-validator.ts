@@ -14,7 +14,10 @@ export function validPIB(pib: number | string): boolean {
     .slice(0, 8)
     .forEach((value) => {
       sum = (sum + parseInt(value, 10)) % 10;
-      sum = ((sum === 0 ? 10 : sum) * 2) % 11;
+      if (sum === 0) {
+        sum = 10;
+      }
+      sum = (sum * 2) % 11;
     });
   sum = (11 - sum) % 10;
 
