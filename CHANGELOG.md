@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/oblakstudio/serbian-validators/compare/v1.0.0...v1.0.1) (2023-08-10)
+
+
+### Bug Fixes
+
+* fixed renovate ([2bf9e7e](https://github.com/oblakstudio/serbian-validators/commit/2bf9e7e487d13c2d671c76057351f77e588c3e75))
+
 # 1.0.0 (2021-10-21)
 
 
